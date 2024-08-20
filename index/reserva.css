@@ -5,6 +5,8 @@ body {
     box-sizing: border-box;
     background-color: #f0f0f0;
     color: #333;
+    background: url(PRATOS/Fundo\ Virtual\ para\ Zoom\ Floral\ Creme.png) no-repeat center center fixed; /* Adiciona a imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
 }
 
 header {
