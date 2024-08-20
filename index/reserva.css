@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #8c0705; /* Vermelho escuro */
+    color: #f0f0f0;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2em;
+}
+
+.reserva {
+    background-color: #fff;
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reserva h2 {
+    color: #8c0705; /* Vermelho escuro */
+    text-align: center;
+}
+
+.reserva form {
+    display: flex;
+    flex-direction: column;
+}
+
+.reserva label {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.reserva input[type="text"],
+.reserva input[type="date"],
+.reserva input[type="time"],
+.reserva input[type="number"],
+.reserva select {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1em;
+}
+
+.reserva input[type="submit"] {
+    background-color: #8c0705;
+    color: #fff;
+    padding: 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.reserva input[type="submit"]:hover {
+    background-color: #6b0504;
+}
+
+section#contact {
+    background-color: #8c0705;
+    color: #f0f0f0;
+    padding: 2em;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 1em 0;
+}
